@@ -1,47 +1,79 @@
-# Hospital Management System
-Hospital Management System using MySQL, Php and Bootstrap
+# 🏥 Hospital Management System
+A **Hospital Management System** built using **MySQL, PHP, and Bootstrap** to streamline patient appointments, doctor interactions, and hospital administrative tasks.
 
-## Need to work on:
+## ✨ Features
+- **🗓️ Appointment Management** – Patients can book appointments, and doctors can accept/reject them.
+- **🔐 Secure User Authentication** – Prevent duplicate registrations and ensure encrypted passwords.
+- **📜 Prescription Management** – Detailed prescription statements for better clarity.
+- **💳 Payment Handling** – Enhanced payment details including date and amount.
+- **📄 PDF Generation** – Generate PDF reports for receipts using TCPDF.
+- **📊 Admin Dashboard** – View and manage hospital records efficiently.
+- **📤 Data Export** – Export hospital data to Excel.
+- **📄 Pagination** – Implemented for better record navigation.
 
-1. Ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved.
-2. User should not be allowed to register if he/she tries to provide the already registered email ID.
-3. The password should be encrypted and the password field shouldn't be displayed in the admin panel.
-4. Implementation of pagination for all the list view across the application.
-5. Bug fix - Bill payment receipt contains multiple record if the patient has associated with the same doctor multiple times.
-6. Addition of more fields in the prescription statement to make it more specific one.
-7. Addition of more details on payment - such as date of the payment made, amount paid, etc.
-8. Implementation of export button in admin module to export all details to an excel sheet.
+## 🚀 To-Do List
+✅ Doctor appointment approval system.
+✅ Prevent duplicate email registrations.
+✅ Encrypt passwords & hide them in the admin panel.
+✅ Fix multiple receipt records for the same doctor.
+✅ Add detailed prescription statements.
+✅ Improve payment details with date & amount.
+✅ Implement pagination for all list views.
+✅ Export hospital data to an Excel sheet.
 
-## Prerequisites
-1. Install XAMPP web server
-2. Any Editor (Preferably VS Code or Sublime Text)
-3. Any web browser with latest version
+---
 
-## Languages and Technologies used
-1. HTML5/CSS3
-2. JavaScript (to create dynamically updating content)
-3. Bootstrap (An HTML, CSS, and JS library)
-4. XAMPP (A web server by Apache Friends)
-5. Php
-6. MySQL (An RDBMS that uses SQL)
-7. TCPDF (to generate PDFs)
+## 🔧 Prerequisites
+1. Install **XAMPP** web server.
+2. Use any editor (**VS Code** or **Sublime Text** preferred).
+3. Open in any modern **web browser** (Chrome, Firefox, Edge).
 
-## Steps to run the project in your machine
-1. Download and install XAMPP in your machine
-2. Clone or download the repository
-3. Extract all the files and move it to the 'htdocs' folder of your XAMPP directory.
-4. Start the Apache and Mysql in your XAMPP control panel.
-5. Open your web browser and type 'localhost/phpmyadmin'
-6. In phpmyadmin page, create a new database from the left panel and name it as 'myhmsdb'
-7. Import the file 'myhmsdb.sql' inside your newly created database and click ok.
-8. Open a new tab and type 'localhost/foldername' in the url of your browser
-9. Hurray! That's it!
-    
-### SOFTWARES USED
-  - XAMPP was installed on the Ubuntu 19.04 machine and APACHE2 Server and MySQL were initialized. And, files were built inside opt/lampp/htdocs/myhmsp
-  - Sublime Text 3.2 was used as a text editor.
-  - Google Chrome Version 77.0.3865.90 was used to run the project (localhost/myhmsp was used as the url).
-  
+---
 
-### Starting Apache And MySQL in XAMPP:
-  The XAMPP Control Panel allows you to manually start and stop Apache and MySQL. To start Apache or MySQL manually, click the ‘Start’ button under ‘Actions’.
+## 🛠️ Technologies Used
+- **HTML5 / CSS3** 🎨
+- **JavaScript** ⚡
+- **Bootstrap** 🎭
+- **PHP** 🖥️
+- **MySQL** 🗄️
+- **TCPDF** 📄 (for generating PDFs)
+- **XAMPP** 🌐
+
+---
+
+## 🚀 Steps to Run the Project
+1️⃣ Install **XAMPP** on your machine.
+2️⃣ Clone or download the repository.
+3️⃣ Extract files and move them to the `htdocs` folder inside your XAMPP directory.
+4️⃣ Start **Apache** and **MySQL** in the XAMPP Control Panel.
+5️⃣ Open a web browser and go to `localhost/phpmyadmin`.
+6️⃣ Create a **new database** named `myhmsdb`.
+7️⃣ Import `myhmsdb.sql` into the newly created database.
+8️⃣ Open a new tab and type `localhost/foldername` in your browser.
+9️⃣ 🎉 You're all set!
+
+---
+
+## 🖥️ Software Used
+- **XAMPP** 🌍 (Ubuntu 19.04, Apache2, MySQL)
+- **Sublime Text 3.2** 📝 (Text Editor)
+- **Google Chrome** 🌐 (Tested on Version 77.0.3865.90)
+
+---
+
+## 📌 Starting Apache and MySQL in XAMPP
+1. Open **XAMPP Control Panel**.
+2. Click the **Start** button under Apache and MySQL.
+3. Once both services are running, you can access your project on `localhost/foldername`.
+
+---
+
+### 📢 Contribution
+Contributions are always welcome! If you find any bugs or have feature requests, feel free to open an issue or submit a pull request.
+
+---
+
+### 📜 License
+This project is **open-source** and available for modification and distribution under the MIT License.
+
+Happy Coding! 🎉🚀
